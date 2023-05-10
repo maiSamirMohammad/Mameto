@@ -57,7 +57,7 @@ specialists to answer users questions or send advices to them.
 
 <h2>-Community screens:</h2>
 <p align="center">
-    <img src="images/login.PNG" width="90%">
+    <img src="images/community.PNG" width="90%">
 </p>
 
 
