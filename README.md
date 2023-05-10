@@ -41,7 +41,7 @@ specialists to answer users questions or send advices to them.
 <hr>
 <h2>- Boarding screens:</h2>
 <p align="center">
-    <img src="images/" width="90%">
+    <img src="images/boarding_screens.PNG" width="90%">
 
 </p>
 
