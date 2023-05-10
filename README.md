@@ -60,4 +60,20 @@ specialists to answer users questions or send advices to them.
     <img src="images/community.PNG" width="90%">
 </p>
 
+<h2>-Specialist screens:</h2>
+<p align="center">
+    <img src="images/specialists.PNG" width="90%">
+</p>
+
+<h2>-Kids area screens:</h2>
+<p align="center">
+    <img src="images/kids_area.PNG" width="90%">
+</p>
+
+<h2>-Settings screens:</h2>
+<p align="center">
+    <img src="images/settings.PNG" width="90%">
+</p>
+
+
 
