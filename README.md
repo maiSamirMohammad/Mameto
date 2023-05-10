@@ -18,3 +18,24 @@ specialists to answer users questions or send advices to them.
 * There is also advertisements of many places that suitable for kids entertainment.
 
 
+<hr>
+<h2>Permissions</h2>
+
+- Network Permission.
+
+
+<hr>
+<h2>Technologies Used:</h2>
+
+* Android Studio
+* Kotlin
+* Firebase(Firestore,Firebase auth,Firebase storage)
+
+<hr>
+<h2>Contributers:</h2>
+
+1-Radwa Mostafa Mostafa Elsayed
+
+2- <a href="https://www.linkedin.com/in/mai-samir-a8204420b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Mai%20Samir%20Mohammad-blue?style=flat-square&logo=linkedin"></a>
+
+
