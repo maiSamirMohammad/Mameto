@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_detail_kids_area.xml" value="0.2234375" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_onboarding_screen.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_signup1.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_signup2.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/activity_signup3.xml" value="0.1" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/fragment_specialist.xml" value="0.1" />
+        <entry key="..\:/Users/Mai/Mameto/app/src/main/res/layout/vertical_kids_area_item.xml" value="0.2234375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/arrow_drop_down.xml" value="0.159" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/btn_next_style.xml" value="0.158" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/btn_post_backround.xml" value="0.231" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/btn_post_enable.xml" value="0.158" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/btn_post_style.xml" value="0.158" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/change_photo_background.xml" value="0.1485" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/container_of_post_image_background.xml" value="0.1485" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/empty_post_backgrond.xml" value="0.2185" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/ic_baseline_account_circle.xml" value="0.157" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.162" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.236" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/image_view_background.xml" value="0.1665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/log_in_after_splash_btn_background.xml" value="0.242" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/login_btn.xml" value="0.1665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/postimagebackground.xml" value="0.17" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/drawable/view.xml" value="0.236" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_after_splash.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_animation_logo.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_community_comments.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_community_posts.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_detail_kids_area.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_edit_profile.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_home_screen.xml" value="0.2453125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_main.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_notificatiom.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_onboarding_screen.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_signup1.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_signup2.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_signup3.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_specialist_accepting.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_specialist_comment.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_specialist_comment_acc.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_specialist_comments.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/activity_specialist_posts.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/fragment_community.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/fragment_kids_area.xml" value="0.2490740740740741" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/fragment_settings.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/fragment_specialist.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/generated_comments_layout.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/grid_kids_area_item.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/guest_settings.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/item.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/item_2.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/item_list.xml" value="0.5" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/item_list_pick_photo.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/loader_dialog.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/logout_dialog.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/notification_item.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/slider_2.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/slider_layout.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/specialist_settings.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/successful_reset_password.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/layout/vertical_kids_area_item.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/Mameto/app/src/main/res/menu/menu_post.xml" value="0.2574055158324821" />
+        <entry key="..\:/Users/pc/AppData/Local/Temp/drawable-temp/fake_of_post_image_background.xml" value="0.2185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

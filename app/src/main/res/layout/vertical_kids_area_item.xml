@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C8B9CB">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_ver"
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:importantForAccessibility="no"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/RoundCorner"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+    <TextView
+        android:id="@+id/name_ver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:textColor="#785081"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/guideline12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="kidszanya" />
+    <ImageView
+        android:id="@+id/ic_point1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/point"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/name_ver" />
+    <ImageView
+        android:id="@+id/ic_point2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/point"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/ic_point1" />
+    <ImageView
+        android:id="@+id/ic_point3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/point"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/ic_point2" />
+    <ImageView
+        android:id="@+id/ic_point4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/point"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/ic_point3" />
+    <ImageView
+        android:id="@+id/ic_point5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/point"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/ic_point4" />
+    <ImageView
+        android:id="@+id/ic_directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/directions"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_point1"
+        app:layout_constraintStart_toEndOf="@+id/ic_point1"
+        app:layout_constraintTop_toTopOf="@+id/ic_point1" />
+    <ImageView
+        android:id="@+id/ic_location_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location_city"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_point2"
+        app:layout_constraintStart_toEndOf="@+id/ic_point2"
+        app:layout_constraintTop_toTopOf="@+id/ic_point2" />
+    <ImageView
+        android:id="@+id/ic_child_care"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/child_care"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_point3"
+        app:layout_constraintStart_toEndOf="@+id/ic_point3"
+        app:layout_constraintTop_toTopOf="@+id/ic_point3" />
+    <ImageView
+        android:id="@+id/ic_phone_in_talk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phone_in_talk"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_point4"
+        app:layout_constraintStart_toEndOf="@+id/ic_point4"
+        app:layout_constraintTop_toTopOf="@+id/ic_point4" />
+    <ImageView
+        android:id="@+id/ic_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_location"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_point5"
+        app:layout_constraintStart_toEndOf="@+id/ic_point5"
+        app:layout_constraintTop_toTopOf="@+id/ic_point5" />
+    <TextView
+        android:id="@+id/city_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_location_city"
+        app:layout_constraintStart_toEndOf="@+id/ic_location_city"
+        app:layout_constraintTop_toTopOf="@+id/ic_location_city" />
+    <TextView
+        android:id="@+id/address_ver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="address"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintStart_toEndOf="@+id/ic_directions"
+        app:layout_constraintTop_toTopOf="@+id/ic_directions"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_directions"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <TextView
+        android:id="@+id/children_age_range_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="children_age_range"
+        android:layout_marginStart="6dp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_child_care"
+        app:layout_constraintStart_toEndOf="@+id/ic_child_care"
+        app:layout_constraintTop_toTopOf="@+id/ic_child_care" />
+    <TextView
+        android:id="@+id/phone_number_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call us"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_phone_in_talk"
+        app:layout_constraintStart_toEndOf="@+id/ic_phone_in_talk"
+        app:layout_constraintTop_toTopOf="@+id/ic_phone_in_talk" />
+    <TextView
+        android:id="@+id/location_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View on Map"
+        android:layout_marginStart="6dp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_my_location"
+        app:layout_constraintStart_toEndOf="@+id/ic_my_location"
+        app:layout_constraintTop_toTopOf="@+id/ic_my_location" />
+</androidx.constraintlayout.widget.ConstraintLayout>

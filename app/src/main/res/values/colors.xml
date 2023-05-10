@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="app_color">#785081</color>
+    <color name="teal_200">#785081</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="active_background">#cb84d9</color>
+    <color name="btn_pressed_get_started_and_next">#B98FC3</color>
+    <color name="tabs_indicator_stroke_color">#707070</color>
+    <color name="hints">#999F6EAA</color>
+    <color name="posts_background">#FFFFFF</color>
+    <color name="btn_comments_background_color">#f1eaf1</color>
+    <color name="image_background">#F6F6F6</color>
+    <color name="generated_comments_background">#f1eaf1</color>
+    <color name="send_icon_color">#CC773877</color>
+    <color name="change_photo_color">#99000000</color>
+</resources>

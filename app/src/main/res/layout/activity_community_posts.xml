@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Community_posts_Activity">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="70dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/top_home_screen_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/empty_post_backgrond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/consPic_Name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/circle_view_new_post"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@drawable/circle_imageview_background"
+            app:layout_constraintBottom_toBottomOf="@+id/circleivUserPhotoDurringCreatingPost"
+            app:layout_constraintEnd_toEndOf="@+id/circleivUserPhotoDurringCreatingPost"
+            app:layout_constraintStart_toStartOf="@+id/circleivUserPhotoDurringCreatingPost"
+            app:layout_constraintTop_toTopOf="@+id/circleivUserPhotoDurringCreatingPost" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleivUserPhotoDurringCreatingPost"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toStartOf="@id/tvUserNameDuringCreatingPost"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imVerified_newPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="-9dp"
+            android:src="@drawable/ic_baseline_verified_24"
+            app:layout_constraintEnd_toEndOf="@id/circle_view_new_post"
+            app:layout_constraintBottom_toBottomOf="@+id/circle_view_new_post"
+            />
+
+        <TextView
+            android:id="@+id/tvUserNameDuringCreatingPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#773877"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/circleivUserPhotoDurringCreatingPost"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/circleivUserPhotoDurringCreatingPost"
+            app:layout_constraintTop_toTopOf="@+id/circleivUserPhotoDurringCreatingPost" />
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+      <EditText
+          android:id="@+id/edPostContent"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:background="@android:color/transparent"
+          android:gravity="top"
+          android:hint="@string/you_can_post_here"
+          android:inputType="textMultiLine"
+          android:padding="10dp"
+          android:textColor="#9f6eaa"
+          android:textColorHint="#999F6EAA"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/containerOfPostImage"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/consPic_Name" />
+
+      <com.google.android.material.imageview.ShapeableImageView
+          android:id="@+id/containerOfPostImage"
+          android:layout_width="0dp"
+          android:layout_height="360dp"
+          android:layout_marginStart="1dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="1dp"
+          android:background="@drawable/container_of_post_image_background"
+          android:scaleType="centerCrop"
+          android:visibility="gone"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/edPostContent"
+          app:shapeAppearanceOverlay="@style/bottomRigthRoundedCorners" />
+
+      <ImageButton
+          android:id="@+id/btnRemovePic"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="2dp"
+          android:background="@drawable/change_photo_background"
+          android:src="@drawable/ic_baseline_clear_24"
+          android:visibility="gone"
+          app:layout_constraintBottom_toTopOf="@+id/imvPostImage"
+          app:layout_constraintEnd_toEndOf="@+id/containerOfPostImage"
+          app:layout_constraintTop_toTopOf="@+id/containerOfPostImage" />
+
+      <TextView
+          android:id="@+id/btnChangePhoto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="start"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="2dp"
+          android:background="@drawable/change_photo_background"
+          android:drawableStart="@drawable/icon_change_photo"
+          android:drawablePadding="5dp"
+          android:padding="2dp"
+          android:text="change photo  "
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          android:visibility="gone"
+          app:layout_constraintBottom_toTopOf="@+id/imvPostImage"
+          app:layout_constraintStart_toStartOf="@+id/containerOfPostImage"
+          app:layout_constraintTop_toTopOf="@+id/containerOfPostImage" />
+
+
+      <ImageView
+          android:id="@+id/imvPostImage"
+          android:layout_width="0dp"
+          android:layout_height="280dp"
+          android:layout_margin="1dp"
+          android:visibility="gone"
+          app:layout_constraintBottom_toBottomOf="@+id/containerOfPostImage"
+          app:layout_constraintEnd_toEndOf="@+id/containerOfPostImage"
+          app:layout_constraintHorizontal_bias="0.5"
+          app:layout_constraintStart_toStartOf="@+id/containerOfPostImage"
+          app:layout_constraintTop_toTopOf="@+id/containerOfPostImage" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvAddPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:drawableStart="@drawable/add_photo_icon"
+        android:drawablePadding="5dp"
+        android:text="Add photo"
+        android:textColor="#9f6eaa"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_post_style"
+        android:gravity="center"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddPhoto" />
+
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edPostContent"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="10dp"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_marginEnd="10dp"-->
+    <!--            android:background="@drawable/empty_post_backgrond"-->
+    <!--            android:gravity="top"-->
+    <!--            android:hint="@string/you_can_post_here"-->
+    <!--            android:inputType="textMultiLine"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:textColor="#9f6eaa"-->
+    <!--            android:textColorHint="#999F6EAA"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:layout_marginBottom="5dp"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.5"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/guideline6"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/imvPhotoFromGallery"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tvAddPhoto"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="18dp"-->
+    <!--            android:layout_marginTop="14dp"-->
+    <!--            android:drawableStart="@drawable/add_photo_icon"-->
+    <!--            android:drawablePadding="5dp"-->
+    <!--            android:text="Add photo"-->
+    <!--            android:textColor="#9f6eaa"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/edPostContent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/edPostContent"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/btnPost"/>-->
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnPost"-->
+    <!--            android:layout_width="190dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="24dp"-->
+    <!--            android:background="@drawable/btn_post_backround"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Post"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textSize="22sp"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.5"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/tvAddPhoto" />-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/imvPhotoFromGallery"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="300dp"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/tvAddPhoto"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.5"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_marginStart="11dp"-->
+    <!--            android:layout_marginEnd="11dp"-->
+    <!--            android:background="#F6F6F6"-->
+    <!--            android:layout_marginBottom="5dp"-->
+    <!--            android:layout_marginTop="8dp"-->
+    <!--            android:padding="10dp"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/edPostContent"-->
+    <!--            />-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

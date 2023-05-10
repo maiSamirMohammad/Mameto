@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "7097945691",
+    "project_id": "mameto-5de8c",
+    "storage_bucket": "mameto-5de8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7097945691:android:db69bd3704a3e1499c397e",
+        "android_client_info": {
+          "package_name": "com.example.mameto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7097945691-mnq94g8smec1fc1iqj88ofe3fcia9qn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GlSchjkrDvf_aZE8_MVLblDEc75PFME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7097945691-mnq94g8smec1fc1iqj88ofe3fcia9qn8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "7097945691-9nu952v73ap97nea4vtj5n9k3hr4svo1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.intake4.Mameto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

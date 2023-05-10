@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginEnd="1dp"
+    app:cardElevation="20dp"
+    android:background="#F6F6F6"
+    android:backgroundTint="#F6F6F6"
+   android:backgroundTintMode="src_atop"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/posts_background"
+        android:paddingBottom="2dp">
+
+        <View
+            android:id="@+id/circle_view"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@drawable/circle_imageview_background"
+            app:layout_constraintBottom_toBottomOf="@+id/circleivUserPhoto"
+            app:layout_constraintEnd_toEndOf="@+id/circleivUserPhoto"
+            app:layout_constraintStart_toStartOf="@+id/circleivUserPhoto"
+            app:layout_constraintTop_toTopOf="@+id/circleivUserPhoto" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleivUserPhoto"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imVerified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="-9dp"
+            android:src="@drawable/ic_baseline_verified_24"
+            app:layout_constraintEnd_toEndOf="@id/circle_view"
+            app:layout_constraintBottom_toBottomOf="@+id/circle_view"
+            />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#773877"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/circleivUserPhoto"
+            app:layout_constraintStart_toEndOf="@+id/circleivUserPhoto"
+            app:layout_constraintTop_toTopOf="@+id/circleivUserPhoto" />
+
+        <TextView
+            android:id="@+id/tvTimeAgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#93609e"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tvUserName"
+            app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+        <TextView
+            android:id="@+id/expandable_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleivUserPhoto"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDropDown"
+            android:layout_marginTop="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:gravity="top"
+            android:textColor="#9f6eaa"
+            />
+
+        <ImageButton
+            android:id="@+id/btnDropDown"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_drop_down_24"
+            android:visibility="gone"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toTopOf="@+id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/expandable_text_view" />
+
+        <TextView
+            android:id="@+id/tvPostOptions"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:text="&#8943;"
+            android:textColor="@color/app_color"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvUserName"
+            android:textAlignment="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:textSize="28sp"
+            app:layout_constraintHorizontal_bias="0.99"
+            />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imvPostPhoto"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:layout_marginStart="11dp"-->
+<!--            android:layout_marginEnd="11dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:background="#F6F6F6"-->
+<!--            android:visibility="visible"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/btnComment"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.5"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/btnDropDown" />-->
+
+        <ImageView
+            android:id="@+id/container"
+            android:layout_width="0dp"
+            android:layout_height="360dp"
+            android:visibility="gone"
+            android:background="@drawable/container_of_post_image_background"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/btnCOMMENT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnDropDown" />
+
+        <ImageView
+            android:id="@+id/imvPostPhoto"
+            android:layout_width="0dp"
+            android:layout_height="280dp"
+            android:layout_margin="1dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/container"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/container"
+            app:layout_constraintTop_toTopOf="@+id/container"
+            app:layout_constraintBottom_toBottomOf="@+id/container"/>
+
+        <Button
+            android:id="@+id/btnCOMMENT"
+            android:layout_width="195dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_comments_background"
+            android:backgroundTint="@null"
+            android:textAllCaps="false"
+            android:textColor="#773877"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Divider style -->
+    <style name="Widget.Mameto.Divider" parent="">
+        <item name="android:background">?attr/dividerHorizontal</item>
+    </style>
+</resources>

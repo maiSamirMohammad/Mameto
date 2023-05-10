@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <corners android:topLeftRadius="45dp"-->
+<!--            android:topRightRadius="45dp"/>-->
+
+<!--    <solid android:color="@color/hints"/>-->
+
+<!--    <size android:height="300dp"/>-->
+    <solid android:color="@color/generated_comments_background"/>
+    <corners android:topRightRadius="25dp"
+        android:topLeftRadius="25dp"
+        android:bottomRightRadius="25dp"/>
+</shape>
