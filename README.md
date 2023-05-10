@@ -39,10 +39,25 @@ specialists to answer users questions or send advices to them.
 2- <a href="https://www.linkedin.com/in/mai-samir-a8204420b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Mai%20Samir%20Mohammad-blue?style=flat-square&logo=linkedin"></a>
 
 <hr>
-<h2>- Boarding screens:</h2>
+<h2>-Boarding screens:</h2>
 <p align="center">
     <img src="images/boarding_screens.PNG" width="90%">
 
+</p>
+
+<h2>-Sign up screens:</h2>
+<p align="center">
+    <img src="images/signup.PNG" width="90%">
+</p>
+
+<h2>-Login screen:</h2>
+<p align="center">
+    <img src="images/login.PNG" width="90%">
+</p>
+
+<h2>-Community screens:</h2>
+<p align="center">
+    <img src="images/login.PNG" width="90%">
 </p>
 
 
