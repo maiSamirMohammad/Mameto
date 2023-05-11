@@ -33,10 +33,10 @@ specialists to answer users questions or send advices to them.
 
 <hr>
 <h2>Contributers:</h2>
+-Radwa Mostafa [linkedin](https://www.linkedin.com/in/%D8%B1%D8%B6%D9%88%D9%89-%D9%85%D8%B5%D8%B7%D9%81%D9%89-40633a20a/)
 
-1-Radwa Mostafa Mostafa Elsayed
+-Mai Samir [linkedin](https://www.linkedin.com/mwlite/in/mai-samir-a8204420b)
 
-2- <a href="https://www.linkedin.com/in/mai-samir-a8204420b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Mai%20Samir%20Mohammad-blue?style=flat-square&logo=linkedin"></a>
 
 <hr>
 <h2>-Boarding screens:</h2>
